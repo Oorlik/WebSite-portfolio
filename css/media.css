@@ -1,0 +1,402 @@
+@media(min-width:2560px) {
+    .logo h1 {
+        font-size: 37px;
+    }
+
+    .header-list-item ul li {
+        font-size: 30px;
+    }
+
+    .header button {
+        width: 150px;
+        height: 55px;
+        background-color: #444BD3;
+        outline: none;
+        cursor: pointer;
+        border: 0;
+        color: #fff;
+        border-radius: 10px;
+        font-size: 25px;
+        transition: all 500ms ease;
+    }
+
+    .left-side h2 {
+        font-size: 5em;
+    }
+
+    .left-side h4 {
+        font-size: 35px;
+    }
+
+    .left-side button {
+        width: 200px;
+        height: 60px;
+        font-size: 24px;
+    }
+
+    .right-side .phone1 {
+        margin-left: 300px;
+        margin-top: 400px;
+    }
+
+    .right-side .phone2 {
+        margin-top: 480px;
+    }
+
+    .right-side .light1 {
+        top: 30%;
+        margin-left: 250px;
+    }
+
+    .right-side .light2 {
+        top: 75%;
+        left: 16%
+    }
+
+    /* End header */
+    .previwInfo h4 {
+        font-size: 35px;
+    }
+
+    .previwInfo h2 {
+        font-size: 60px;
+    }
+
+    .previwInfo h5 {
+        font-size: 25px;
+    }
+
+    .slider {
+        width: 51.5%;
+    }
+
+    .sliderSection {
+        width: 560px;
+    }
+
+    /* End main section */
+    .infoWhyWe {
+        padding: 20px 11.1%;
+    }
+
+    .infoWhyWe h4 {
+        font-size: 32px;
+    }
+
+    .infoWhyWe h2 {
+        font-size: 3em;
+    }
+
+    .sliderinfo {
+        width: 400px;
+        height: 300px;
+
+    }
+
+    /* End info section */
+    .connectionUs div {
+        width: 70px;
+        height: 70px;
+    }
+
+    .connectionUs i {
+        font-size: 35px;
+        margin-top: 16px;
+    }
+
+    .mail h2 {
+        font-size: 35px;
+    }
+
+    .mail a {
+        font-size: 27px;
+
+    }
+
+
+}
+
+@media(max-width:1440px) {
+    .slider {
+        width: 92%;
+    }
+
+    /* main section */
+    .left-side h2 {
+        font-size: 3.5em;
+    }
+
+    .left-side h4 {
+        font-size: 1.4em;
+    }
+
+    .left-side div {
+        padding: 0 15%;
+        margin-bottom: 50px;
+    }
+
+    .right-side .phone1 {
+        margin-left: 100px;
+        margin-top: 150px;
+    }
+
+    .backGradient img {
+        width: 76.5%;
+    }
+
+    .right-side .phone2 {
+        margin-top: 200px;
+    }
+
+    .right-side .light1 {
+        top: 5%;
+        margin-left: 80px;
+    }
+
+    .right-side .light2 {
+        top: 70%;
+        left: 1%
+    }
+
+    /* End main section */
+    /* slider section */
+    .arrow-next {
+        left: 100%;
+    }
+
+    .arrow-prev {
+        right: 100%;
+    }
+
+}
+
+@media(max-width: 1024px) {
+
+    /* main section */
+    main {
+        padding: 20px 0%;
+    }
+
+    .right-side .light1 {
+        top: -3%;
+        margin-left: 40px;
+    }
+
+    .right-side .light2 {
+        top: 70%;
+        left: 0%
+    }
+
+    .backGradient img {
+        width: 93.5%;
+    }
+
+    .right-side .phone1 {
+        margin-left: 120px;
+        margin-top: 200px;
+    }
+
+    .right-side .phone2 {
+        margin-top: 250px;
+    }
+
+    .left-side h4 {
+        font-size: 20px;
+    }
+
+    /* End main section */
+    .slider {
+        width: 43%;
+    }
+
+    .mainInfoWhy {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .sliderinfo {
+        width: 30%;
+        margin: 50px 30px;
+
+    }
+
+    .mail {
+        margin-left: 150px;
+    }
+}
+
+@media(max-width:768px) {
+    main {
+        flex-wrap: wrap;
+    }
+
+    .left-side {
+        width: 100%;
+    }
+
+    .right-side {
+        width: 100%;
+    }
+
+    .right-side .light1 {
+        top: 13%;
+        margin-left: 180px;
+    }
+
+    .right-side .light2 {
+        top: 74%;
+        left: 10%
+    }
+
+    .slider {
+        width: 57%;
+    }
+
+    .sliderinfo {
+        width: 32%;
+        margin: 50px 30px;
+    }
+}
+
+@media(max-width:425px) {
+    .right-side .light1 {
+        top: -7%;
+        margin-left: 55px;
+        display: none;
+    }
+
+    .right-side .light2 {
+        display: none;
+    }
+
+    .right-side .phone1 {
+        margin-left: 0px;
+        margin-top: 70px;
+
+    }
+
+    .right-side .phone2 {
+        margin-top: 100px;
+    }
+
+    .header ul {
+        display: none;
+    }
+
+    #menu {
+        display: inline-block;
+    }
+
+    .right-side {
+        width: 100%;
+        height: 60vh;
+    }
+
+    .backGradient {
+        opacity: 0.5;
+    }
+
+    .right-side {
+        background-image: url("../img/backResize.png");
+        background-size: contain;
+    }
+
+    .backGradient img {
+        width: 50%;
+    }
+
+    .slider {
+        width: 100%;
+    }
+
+    .sliderSection img:first-child {
+        width: 100%;
+    }
+
+    .sliderSection {
+        width: 360px;
+        margin: 20px 40px;
+
+    }
+
+    .swipe {
+        display: block;
+    }
+
+    .arrow-prev,
+    .arrow-next {
+        margin: 0px 500px;
+    }
+
+    .left-side h2 {
+        font-size: 2.8em;
+    }
+
+    .left-side div {
+        padding: 0 7%;
+    }
+
+    .infoWhyWe {
+        padding: 20px 2%;
+    }
+
+    .sliderinfo {
+        width: 60%;
+        margin: 50px 30px;
+    }
+
+    footer {
+        display: block;
+    }
+
+    .mail {
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+
+    .connectionUs {
+        justify-content: center;
+    }
+  
+}
+@media(max-width:375px){
+    .right-side .phone2 {
+     right:5px;
+    
+    }   
+    .right-side .phone1{
+        margin-top: 50px;
+    }  
+}
+@media(max-width:320px){
+    .header button{
+        display: none;
+    }
+    #login{
+        display: inline-block;
+    }
+    .right-side .phone2 {
+        right:25px;
+       
+       }   
+       .right-side .phone1{
+           margin-top: 80px;
+           margin-left: 30px;
+       } 
+  
+       .backGradient img {
+        width: 45%;
+    }
+    .previwInfo h2{
+        font-size: 40px;
+    }
+    .sliderSection{
+        margin: 20px 5px;
+    }
+    .sliderinfo {
+        width: 65%;
+        height: 350px;
+        margin: 50px 30px;
+    }
+}
